@@ -1,0 +1,14 @@
+﻿body {
+	background-color: lightgray;
+}
+
+span {
+	background-color: gray;
+	border: gray solid;
+	border-radius: 10px;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+}
