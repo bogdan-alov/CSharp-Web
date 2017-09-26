@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>SoftUni Beers</title>
+	<link href="style/form.css" rel="stylesheet" />
+</head>
+<body>
+	<nav>
+		<div class="topnav">
+			<a class="logo" href="index.html"><img src="images/logo.png" /></a>
+			<a href="index.html">Home</a>
+			<a href="all-beers.html">See All Beers</a>
+			<a class="active" href="order.html">Order a beer</a>
+			<a class="right" href="register.html">Register</a>
+			<a href="login.html" class="right">Log in</a>
+		</div>
+	</nav>
+	<main>
+		<center>
+			<h1>
+				Order A Beer
+			</h1>
+			<form>
+				<label>Brand</label>
+				<select>
+					Select a brand
+					<option selected disabled>Select a brand</option>
+					<option>Corona</option>
+					<option>Heineken</option>
+					<option>Kamenitza</option>
+					<option>Staropramen</option>
+					<option>Other</option>
+				</select>
+
+				<label>Quantity</label>
+				<input type="number" min="1" max="15" placeholder="Enter amount of beers (1-15)" />
+
+				<label>Destination</label>
+				<select>
+					Select a destination
+					<option selected disabled>Select a destination</option>
+					<option>Home Address</option>
+					<option>Work Address</option>
+					<option>Other</option>
+				</select>
+
+				<label>Enter your birthdate</label>
+				<input type="date" placeholder="mm/dd/yyyy"/>
+				
+				<label>Got an opinion, recommendation? Share it with us!</label>
+				<input type="text" placeholder="Share your opinion with us!"/>
+				
+				<input type="submit" value="Order"/>
+			</form>
+		</center>
+	</main>
+
+	<footer>
+		<hr />
+		<p><em>&copy; 2017 &ndash; SoftUni Beers</em></p>
+	</footer>
+</body>
+</html>
